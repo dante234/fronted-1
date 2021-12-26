@@ -24,6 +24,9 @@ body{
     width: 300px;
 
 }
+.form-class2{
+justify-items: center;
+}
 .logo{
     width: 150px;
     margin-bottom: 48px;
@@ -46,6 +49,13 @@ body{
     display: flex;
     flex-direction: column;
 }
+.from a{
+    color: var(--hospital-green);
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 52px;
+}
 .label{
     font-size: var(--sm);
     font-weight: bold;
@@ -60,6 +70,32 @@ body{
     padding: 6px;
     margin-bottom: 12px;
 }
+.input-email{
+    margin-bottom: 22px;
+}
+.email-image{
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.email-image img{
+    width: 80px;
+}
+.resend{
+    font-size: var(--sm);
+}
+.resend span{
+    color: var(--very-light-pink);
+}
+.resend a{
+    color: var(--hospital-green);
+    text-decoration: none;
+}
 .primary-button{
     background-color: var(--hospital-green);
     border-radius: 8px;
@@ -71,6 +107,17 @@ body{
     font-weight: bold;
     height: 60px;
 }
+.secodary-button{
+    background-color: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
 .login-button{
     margin-top: 14px;
     margin-bottom: 30px;
@@ -78,5 +125,10 @@ body{
 @media (max-width: 640px) {
     .logo{
         display: block;
+    }
+    .secodary-button{
+        width: 300px;
+        position: absolute;
+        bottom: 0;
     }
 }
